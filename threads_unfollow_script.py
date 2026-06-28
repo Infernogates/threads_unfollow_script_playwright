@@ -256,7 +256,7 @@ def unfollow(page, handle):
 
 
 def main():
-    if USERNAME == "your_handle_here" or not USERNAME:
+    if USERNAME == "THREADS_KULLANICI_ADI" or not USERNAME:
         sys.exit("Set USERNAME at the top of the script to your Threads handle first.")
 
     me = USERNAME.lower()
